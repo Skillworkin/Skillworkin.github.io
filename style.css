@@ -132,6 +132,9 @@ footer {
   line-height: 1.4;
   text-align: center;
 }
-
+.buttons {
+  gap: 40px;
 }
+
+
 
