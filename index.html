@@ -13,6 +13,7 @@
       --text-light: #64748b;
       --bg-light: #f8fafc;
       --card-bg: #ffffff;
+      --star: #facc15;
     }
 
     * {
@@ -121,6 +122,62 @@
       color: var(--text-light);
     }
 
+    /* TESTIMONIALS */
+    .testimonials {
+      padding: 80px 20px;
+      background: #f9fbff;
+      text-align: center;
+    }
+
+    .testimonials h2 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .testimonials .subtitle {
+      font-size: 15px;
+      color: var(--text-light);
+      margin-bottom: 40px;
+    }
+
+    .testimonial-cards {
+      display: flex;
+      gap: 25px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .testimonial {
+      background: white;
+      max-width: 300px;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    }
+
+    .stars {
+      color: var(--star);
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .testimonial .quote {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .testimonial h4 {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .testimonial span {
+      font-size: 13px;
+      color: #777;
+    }
+
     /* HOW IT WORKS */
     .how {
       text-align: center;
@@ -158,17 +215,15 @@
   <!-- HERO -->
   <section class="hero">
     <h1>Get Work Done Based on Skills, Not Degrees</h1>
-    <p>
-      Skillwork connects people who need work done with people who have real, proven skills.
-    </p>
+    <p>Skillwork connects people who need work done with people who have real, proven skills.</p>
 
     <div class="buttons">
-      <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdrobF_KkPw1Xa9R5ik6fUlC1Vxa_7mnC26OetsIEU1BY1rNw/viewform" target="_blank">
+      <a class="btn primary" href="#" target="_blank">
         Post a Skill
         <small>For people who can do work</small>
       </a>
 
-      <a class="btn secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSe2PxOUBhmVCqkaGXcAhxUT-dYzoHhqaKaxRWfdHMmmj-55Fw/viewform" target="_blank">
+      <a class="btn secondary" href="#" target="_blank">
         Get a Skill Done
         <small>For people who need work done</small>
       </a>
@@ -193,13 +248,42 @@
     </div>
   </section>
 
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <h2>What People Say About Skillwork</h2>
+    <p class="subtitle">Feedback from early users</p>
+
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p class="quote">“I got my first paid work without any degree. Skillwork values skills, not certificates.”</p>
+        <h4>Rohit</h4>
+        <span>Video Editor</span>
+      </div>
+
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p class="quote">“I needed work done quickly. Skillwork helped me find the right person in hours.”</p>
+        <h4>Ananya</h4>
+        <span>Small Business Owner</span>
+      </div>
+
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p class="quote">“Perfect platform for students who want to grow using real skills.”</p>
+        <h4>Sameer</h4>
+        <span>Student</span>
+      </div>
+    </div>
+  </section>
+
   <!-- HOW IT WORKS -->
   <section class="how">
     <h2>How Skillwork Works</h2>
     <ol>
       <li>1. Post your skill or requirement</li>
       <li>2. Get matched based on skills</li>
-      <li>3. Deal, work, and grow together</li>
+      <li>3. Work together and grow</li>
     </ol>
   </section>
 
